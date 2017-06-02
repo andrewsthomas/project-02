@@ -75,14 +75,15 @@ NAVIGATION
 ************************************************/
 
 .main-nav {
-  border: solid red 1px;
+  /*border: solid red 1px;*/
 }
 
 .nav {
   text-align: center;
   list-style: none;
-  border: solid green 1px;
+  /*border: solid green 1px;*/
   display: block;
+  margin: 0 auto;
 }
 
 .nav li {
@@ -104,13 +105,13 @@ PORTFOLIO
 
 #portfolio {
   background-color: white;
-  border: solid red 1px;
+  /*border: solid red 1px;*/
 }
 
 #gallery {
   list-style: none;
   text-align: center;
-  border: solid green 1px;
+  /*border: solid green 1px;*/
 }
 
 #gallery p {
