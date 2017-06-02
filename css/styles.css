@@ -106,6 +106,7 @@ PORTFOLIO
 
 #portfolio {
   background-color: white;
+  padding-bottom: 30px;
   /*border: solid red 1px;*/
 }
 
@@ -125,6 +126,7 @@ PORTFOLIO
 
 #gallery img {
   margin: 20px 0;
+  width: 100%;
 }
 
 
