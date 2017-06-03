@@ -25,12 +25,6 @@ a {
   color: #383838;
 }
 
-img {
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
 h1 {
   text-align: center;
   color: #383838;
@@ -42,7 +36,8 @@ h2 {
   text-transform: uppercase;
   color: #383838;
   font-size: 1em;
-  padding: 75px 0 50px;
+  padding: 50px 0 50px;
+  margin-bottom: -35px;
 }
 
 h3 {
@@ -51,15 +46,13 @@ h3 {
   color: #383838;
 }
 
-.profile-image {
-  padding: 30px;
-}
-
 .introduction {
   font-size: 1.1em;
   color: #909090;
   text-align: center;
+  margin-bottom: 30px;
 }
+
 
 /***********************************************
 HEADING
@@ -67,24 +60,24 @@ HEADING
 
 .profile-image {
   display: block;
-  margin: 0 auto;
   border-radius: 50%;
+  border: #909090 solid 3px;
+  width: 150px;
+  height: 150px;
+  padding: 0;
+  margin: 30px auto;
 }
 
 /***********************************************
 NAVIGATION
 ************************************************/
 
-.main-nav {
-  /*border: solid red 1px;*/
-}
-
 .nav {
   text-align: center;
   list-style: none;
-  /*border: solid green 1px;*/
   display: block;
   margin: 30px auto 0;
+  padding: 0;
 }
 
 .nav li {
@@ -107,21 +100,22 @@ PORTFOLIO
 #portfolio {
   background-color: white;
   padding-bottom: 30px;
-  /*border: solid red 1px;*/
 }
 
 #gallery {
   list-style: none;
   text-align: center;
-  /*border: solid green 1px;*/
+  padding: 0;
 }
 
 #gallery p {
   font-size: 1.1em;
+  padding: 0 10px;
 }
 
 #gallery li {
   display: block;
+  padding: 0 15px;
 }
 
 #gallery img {
@@ -141,11 +135,11 @@ CONTACT
 .contact-info {
   text-align: center;
   margin: 40px 0 60px;
+  padding: 0;
 }
 
 .contact-info li {
-  padding-left: 10px;
-  margin-top: 30px;
+  margin: 30px auto 0;
   font-size: 1em;
   list-style: none;
 }
@@ -169,14 +163,16 @@ FOOTER
 
 #footer {
   margin-top: 100px;
-  padding-top: 40px;
-  padding-bottom: 50px;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 0;
   border-top: 1px solid #c0c0c0;
 }
 
 #footer li {
   display: inline-block;
-  font-size: .7em;
+  font-size: .8em;
   color: #383838;
 }
 
