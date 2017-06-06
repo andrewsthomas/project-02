@@ -202,3 +202,88 @@ COLORS
 /***********************************************
 MEDIA QUERIES FOR TABLET
 ************************************************/
+
+@media (min-width: 768px) {
+  #main-header {
+    margin-top: 2em;
+  }
+  .nav {
+    margin-top: .6em;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nav a {
+    margin: 0 1em;
+    font-size: .8em;
+    background-color: transparent;
+  }
+  #main-intro {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .profile-image {
+    float: right;
+    margin-right: 6em;
+  }
+  .introduction {
+    float: left;
+    max-width: 55%;
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 1.5em;
+  }
+  #portfolio {
+    clear: both;
+  }
+  #gallery {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  #gallery li {
+    float: left;
+    width: 50%;
+    padding: .4em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #gallery li:nth-child(2n+1) {
+    clear: left;
+  }
+  #gallery img {
+    margin-bottom: 0;
+  }
+  #contact {
+    clear: both;
+  }
+  #contact p {
+    width: 70%;
+    margin: 1em auto;
+    font-size: 1.2em;
+  }
+  .contact-info li {
+    margin: 15px auto 0;
+  }
+  #footer li {
+    margin: 0 1.5em;
+  }
+  /** Clearfix begin. **/
+  .cf:before,
+  .cf:after {
+    content: " ";
+    display: table;
+  }
+  .cf:after {
+    clear: both;
+  }
+  .cf {
+    *zoom: 1;
+  }
+  /** Clearfix end. **/
+
+}
+
+
+
+/***********************************************
+MEDIA QUERIES FOR DESKTOP
+************************************************/
