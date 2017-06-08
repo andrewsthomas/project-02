@@ -4,24 +4,27 @@
     <meta charset="utf-8">
     <title>Andrew Scott Thomas | Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
   </head>
   <body>
 
-    <header id="main-header">
-      <h1><a href="#">Andrew Scott Thomas</a></h1>
+    <div id="wrapper-01">
+      <header id="main-header">
+        <h1><a href="#">Andrew Scott Thomas</a></h1>
 
-      <ul class="nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </header>
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </header>
 
-    <div id="main-intro">
-      <img src="img/andrew.jpg" alt="Photo of Andrew Scott Thomas" class="profile-image">
-      <p class="introduction">Hi! I'm a front-end developer who loves responsive design and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+      <div id="main-intro">
+        <img src="img/andrew.jpg" alt="Photo of Andrew Scott Thomas" class="profile-image">
+        <p class="introduction">Hi! I'm a front-end developer who loves responsive design and CSS. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+      </div>
     </div>
 
     <div id="portfolio" class="cf">
@@ -74,24 +77,30 @@
       </section>
     </div>
 
-    <div id="contact">
-      <section>
-        <h2>Contact</h2>
-        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-        <ul class="contact-info">
-          <li class="phone"><a href="tel:111-555-1234">+1 (111) 555-1234</a></li>
-          <li class="email"><a href="mailto:email@yoursite.com">email@yoursite.com</a></li>
-        </ul>
-      </section>
-    </div>
+    <div id="wrapper-02">
+      <div id="contact">
+        <section>
+          <h2>Contact</h2>
+          <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+          <ul class="contact-info">
+            <li class="phone"><a href="tel:111-555-1234">+1 (111) 555-1234</a></li>
+            <li class="email"><a href="mailto:email@yoursite.com">email@yoursite.com</a></li>
+          </ul>
+        </section>
+      </div>
 
-    <footer>
-      <ul id="footer">
-        <li class="name">Andrew Scott Thomas</li>
-        <li class="top"><a href="#">Back to Top</a></li>
-      </ul>
-    </footer>
-  </div>
+      <footer id="footer">
+        <ul class="footer-name-top">
+          <li class="name">Andrew Scott Thomas</li>
+          <li class="top"><a href="#">Back to Top</a></li>
+        </ul>
+        <ul class="footer-nav">
+          <li class="footer-home"><a href="#">Home</a></li>
+          <li class="footer-portfolio"><a href="#portfolio">Portfolio</a></li>
+          <li class="footer-contact"><a href="#contact">Contact</a></li>
+        </ul>
+      </footer>
+    </div>
 
   </body>
 </html>
