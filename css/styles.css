@@ -221,10 +221,12 @@ FOOTER
 .footer-name-top {
   display: flex;
   list-style: none;
+  width: 100%;
   padding: 0;
   color: #383838;
   font-size: .8em;
   font-weight: bold;
+  justify-content: space-between;
   align-self: center;
 }
 
@@ -338,7 +340,6 @@ MEDIA QUERIES FOR TABLET
     margin-left: .65em;
     margin-right: .65em;
   }
-  /** Clearfix begin. **/
   .cf:before,
   .cf:after {
     content: " ";
@@ -350,7 +351,6 @@ MEDIA QUERIES FOR TABLET
   .cf {
     *zoom: 1;
   }
-  /** Clearfix end. **/
 }
 
 /***********************************************
@@ -365,7 +365,7 @@ MEDIA QUERIES FOR DESKTOP
   }
   .nav {
     align-self: center;
-    margin: 1.5em 1em 0;
+    margin: .7em 1em 0;
   }
   .profile-image {
     margin-bottom: 50px;
@@ -373,12 +373,13 @@ MEDIA QUERIES FOR DESKTOP
   #gallery li {
     width: 28.3333%;
     float: none;
+    vertical-align: top;
   }
   #gallery li:nth-child(3n+1) {
     clear: left;
   }
   #gallery p {
-    height: 2px;
+    height: 90px;
   }
   #skills p,
   #contact p {
